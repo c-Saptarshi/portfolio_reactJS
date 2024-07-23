@@ -1,0 +1,48 @@
+* {
+    border: 0px;
+    margin: 0px;
+}
+
+#name{
+    color: black;
+    font-style: italic ;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #99a5e0;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(197, 204, 228, 0.795);
+}
+
+h1,
+h2 {
+    color: #807eee;
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}

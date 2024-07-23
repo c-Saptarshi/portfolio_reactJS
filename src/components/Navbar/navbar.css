@@ -1,0 +1,60 @@
+/* Styles for the navbar */
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky; /* Ensures the navbar sticks to the top */
+    top: 0; /* Position it at the top */
+    z-index: 3; /* Make sure it appears above other content */
+    background-color: rgb(33, 29, 29); /* Background color */
+}
+
+/* Styles for the brand name */
+.name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellow; /* Text color */
+}
+
+/* Styles for the menu items */
+.desktopListMenuItems {
+    margin: 1rem;
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover effect for the menu items */
+.desktopListMenuItems:hover {
+    color: yellow; /* Change color on hover */
+    padding-bottom: 0.5rem; /* Add padding at the bottom */
+    border-bottom: 1px solid yellow; /* Add bottom border */
+}
+
+/* Styles for the contact button */
+.desktopMenuBtn {
+    background: white; /* Button background color */
+    color: black; /* Button text color */
+    border: none; /* Remove border */
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Center align items */
+    justify-content: center; /* Center align items */
+    border-radius: 2rem; /* Rounded corners */
+    padding: 0 1rem; /* Padding */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Styles for the contact button image */
+.desktopMenuImg {
+    object-fit: cover; /* Cover the container */
+    height: 1rem; /* Image height */
+    width: 1rem; /* Image width */
+    margin: 1rem; /* Margin */
+}
+
+/* Styles for the active menu item */
+.active {
+    color: yellow; /* Active item color */
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid yellow;
+}

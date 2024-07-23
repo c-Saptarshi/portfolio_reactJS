@@ -1,0 +1,133 @@
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+/* .bg{
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+} */
+
+.introContent {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.line1 {
+    font-size: 4vh;
+    font-weight: 100;
+}
+
+.line2 {
+    font-size: 10vh;
+    color: yellow;
+}
+
+.line3 {
+    font-size: 3vh;
+    font-weight: 100;
+}
+
+.interest {
+    font-size: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(213, 165, 94);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.btn {
+    background: white;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    padding: 0 2rem;
+    margin: 3px;
+    font-size: 1.1rem;
+}
+
+.download-btn{
+    text-decoration: none;
+    color:black;
+}
+
+.download-btn:hover{
+    color:rgb(76, 109, 147);
+    text-decoration: underline;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn img {
+    object-fit: cover;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 1rem;
+}
+
+
+@media screen and (max-width : 840px) {
+    .bg {
+        right: -20vw;
+    }
+
+    .introContent {
+        font-size: 10vw;
+    }
+
+    .line2 {
+        font-size: 10vw;
+    }
+
+}
+
+.imageGallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.galleryImg {
+    width: 50px;
+    /* Adjust the width as needed */
+    height: 50px;
+    /* Adjust the height as needed */
+    margin-bottom: 20px;
+    border-radius: 50%;
+    /* Makes the images circular */
+    background-color: red;
+
+}
+
+.typed-cursor {
+    display: none;
+  }
+  
+  /* Remove the line gap */
+  .introContent span {
+    display: inline;
+  }
