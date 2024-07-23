@@ -18,12 +18,12 @@ const Intro = () => {
       typeSpeed: 50,
       showCursor: false,
       onComplete: () => {
-        const typedLine2 = new Typed(line2Ref.current, {
+         new Typed(line2Ref.current, {
           strings: ["I'm <b>Saptarshi Chakrabortty</b>"],
           typeSpeed: 50,
           showCursor: false,
           onComplete: () => {
-            const typedLine3 = new Typed(line3Ref.current, {
+             new Typed(line3Ref.current, {
               strings: [
                 'I have recently completed <b>BTech</b> and now I want to get into the software domain.',
               ],
@@ -70,12 +70,6 @@ const Intro = () => {
             <img src={dwnldImg} alt='resume' />Download Resume
           </a>
         </div>
-      </div>
-      {/* <img src='' alt='profile' className='bg'></img> */}
-      <div className='imageGallery'>
-        <img src='' alt='Pic 1' className='galleryImg' />
-        <img src='' alt='Pic 2' className='galleryImg' />
-        <img src='' alt='Pic 3' className='galleryImg' />
       </div>
     </section>
   );
